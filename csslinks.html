@@ -1,0 +1,70 @@
+<html>
+<head>
+<style>
+a:link {
+  color: green;
+	display:block;
+}
+
+
+a:visited {
+  color: green;
+}
+
+
+div:hover p{
+  color: red;
+display:block;
+background-color:yellow;
+padding:20px;
+}
+div:hover span{color: red;
+display:inline;
+background-color:yellow;
+padding:20px;
+}
+
+
+a:active {
+  color: yellow;
+} 
+
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+a::first-line {
+  color: #0000ff;
+  font-variant: small-caps;
+}
+h1::before{
+    content:"--->";
+ }
+h2::after{
+    content:"--->";
+}
+::selection{
+    background-color:yellow;
+    color:red;
+}
+</style>
+</head>
+<body>
+
+<p class:a bgcolor="lightblue">pseudo class property</p><a href="/home/Sem6B8/prakruthi/html/displayproperty.html">files</a>
+
+<div style="background-color:grey" >
+<p><b>Note:</b> pseudo classes and elements is displayed.
+              it lab concepts</p>
+
+</div>
+<div>
+<p><span>It lab concepts<span></p>
+</div>
+<h1>this is heading</h1>
+<h2>this is heading</h2>
+
+</body>
+</html>
+
